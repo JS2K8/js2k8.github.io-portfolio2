@@ -60,7 +60,7 @@ section {
 }
 
 .home {
-    background-image: url("/img2/polygon-scatter-haikei.svg");
+    background-image: url("./img2/polygon-scatter-haikei.svg");
 
 }
 
@@ -76,21 +76,21 @@ section {
 }
 
 .projects {
-    background-image: url("/img2/polygon-scatter-haikei2.svg");
+    background-image: url("./img2/polygon-scatter-haikei2.svg");
     color: white;
     display: flex;
     flex-direction: column;
 }
 
 .about {
-    background-image: url("/img2/polygon-scatter-haikei3.svg");
+    background-image: url("./img2/polygon-scatter-haikei3.svg");
     display: flex;
     flex-direction: column;
     color: white;
 }
 
 .contact {
-    background-image: url("/img2/polygon-scatter-haikei4.svg");
+    background-image: url("./img2/polygon-scatter-haikei4.svg");
     display: flex;
     flex-direction: column;
     color: white;
