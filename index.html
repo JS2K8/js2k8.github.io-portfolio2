@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <link rel="icon" href="img/icon.png" type="image/png">
+    <script src="app.js"></script>
+</head>
+<body>
+    <div class="container">
+        <nav class="nav sticky">
+            <ul>
+                <li><a href="#home">.home()</a></li>
+                <li><a href="#projects">.projects()</a></li>
+                <li><a href="#about">.about()</a></li>
+                <li><a href="#contact">.contact()</a></li>
+            </ul>
+        </nav>
+        <section class="home" id="home">
+            <div class="hello">
+                <h1>Hello, my name is Jonathan</h1>
+                <p id="programmer">I'm a programmer<span class="blink">█</span></p>
+            </div>
+        </section>
+        <section class="projects" id="projects">
+            <h1>These are my latest projects.</h1>
+            <div class="projectsCont">
+                <div class="projectCont">
+                    <img class="projectImg" src="img/dicegame.png" alt="">
+                    <div class="middle">
+                        <div class="text"> <a href="https://github.com/JS2K8/M28Week3/tree/main/diceGame">Dice Game</a></div>
+                      </div>
+                </div>
+                <div class="projectCont">
+                    <img class="projectImg" src="img/shopping.png" alt="">
+                    <div class="middle">
+                        <div class="text"><a href="https://github.com/JS2K8/shopping-list">Shopping List</a></div>
+                      </div>
+                </div>
+                <div class="projectCont">
+                    <img class="projectImg" src="img/passgen.png" alt="">
+                    <div class="middle">
+                        <div class="text"><a href="https://github.com/JS2K8/PasswordGeneratorJS">Password Generator</a></div>
+                      </div>
+                </div>
+            </div>
+            <p>You can keep up to date with me on my <span><a href="https://github.com/JS2K8/">Github</a></span></p>
+        </section>
+        <section class="about" id="about">
+            <h1>Some things about me.</h1>
+            <div class="content about">
+                <p>I am passionate about technology and love teaching myself new things.</p>
+                <p>I like to code in JavaScript and Python and enjoy building personal projects using them.</p>
+                <p class="strong">My skills include: &nbsp<strong>Python, JavaScript, HTML, CSS.</strong></p>
+                <p class="strong">I would like to learn: &nbsp<strong> Cloud technologies, more JavaScript frameworks, full stack development.</strong></p>
+                <p>Outside of programming, my hobbies include football, boxing, video games, movies, and puzzles.</p>
+              </div>
+              <div class="skillImages">
+                <img src="./img/aws.png" alt="AWS">
+                <img src="./img/html.png" alt="Web Stack">
+                <img src="./img/python.png" alt="Python">
+              </div>
+        </section>
+        <section class="contact" id="contact">
+            <div class="title">
+                <h1>Feel free to get in touch 😃</h1>
+              </div>
+              <div class="content">
+                <form class="formElements">
+                  <label for="name">Your name:</label>
+                  <input type="text" id="name" name="name" placeholder="Your name...">
+                  <label for="email">Your email:</label>
+                  <input type="text" id="email" name="email" placeholder="Your email...">
+                  <label for="message">Subject:</label>
+                  <textarea id="message" name="message" placeholder="Write something..." style="height: 180px;"></textarea>
+                  <input type="submit" value="Submit">
+                </form>
+                <p>Or email me at: J.P.Sharrock1@gmail.com</p>
+              </div>
+        </section>
+        <section class="footer">
+            <div>
+                <a href="https://github.com/JS2K8/"><img src="/img/githubicon.png" alt="github"></a>
+                <a href="https://www.linkedin.com/in/jonathan-sharrock/"><img src="/img/linkedin.png" alt="linkedin"></a>
+            </div>
+            <div>
+                <p>Copyright © 2021 Jonathan Sharrock. All rights reserved.</p>
+            </div>
+        </section>
+        <script src="app.js"></script>
+    </div>
+</body>
+</html>
